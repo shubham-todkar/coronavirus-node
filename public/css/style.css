@@ -1,0 +1,121 @@
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;   
+    padding: 0 16px;
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+footer{
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+header a{
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait{
+    width: 300px;
+}
+.himage{
+    padding-top:5px ;
+    padding-left: 1px;
+    width: 80px;
+    height: 80px;
+    
+}
+
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
+#p1{
+    font-size: larger;
+    font-weight:bolder ;
+    color: #333333;
+}
+#p2{
+    font-size: large;
+    font-weight:bold ;
+    color: red;
+}
+#p3{
+    font-size: large;
+    font-weight:bold ;
+    color: red;
+}
+#p4{
+    font-size: large;
+    font-weight:bold ;
+    color: red;
+}
+#p5{
+    font-size: large;
+    font-weight:bold ;
+    color: red;
+}
+#p6{
+    font-size: large;
+    font-weight:bold ;
+    color: green;
+}
+#p7{
+    font-size: large;
+    font-weight:bold ;
+    color: blue;
+}
+#p8{
+    font-size: large;
+    font-weight:bold ;
+    color: orangered;
+}
+#p9{
+    font-size: large;
+    font-weight:bold ;
+    color: orangered;
+}
+#p10{
+    font-size: large;
+    font-weight:bold ;
+    color: orangered;
+}
+.div2 {
+   flex-grow: 1;
+   margin-top: 18px;
+   margin-right: 18px;
+   padding-top: 2px;
+   padding-left: 8px;
+    border-top: 1px solid #eeeeee;
+  }
